@@ -1,0 +1,6 @@
+{
+  "description": "Library for controlling a Breadboard Mates' display module programmed with the Mates Studio's Commander or Architect environment. Wraps https://github.com/BreadBoardMates/Arduino-Mates-Controller",
+  "license": "MIT",
+  "name": "mates-controller",
+  "version": "0.0.1"
+}

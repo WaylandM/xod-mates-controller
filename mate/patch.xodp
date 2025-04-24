@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "id": "BkTvuQO1gg",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D4"
+      },
+      "id": "HkLXYmd1gx",
+      "label": "RESET",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "H1uNFmuygl",
+      "label": "UART",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/uart/input-uart"
+    },
+    {
+      "id": "HkDSF7dkge",
+      "label": "MATE",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}
