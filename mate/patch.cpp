@@ -7,8 +7,12 @@ node {
         using Type = MatesController*;
     }
 
-    auto uart = getValue<input_UART>(ctx);
     static_assert(isValidDigitalPort(constant_input_RESET), "must be a valid digital port");
+
+    uint8_t mem[sizeof(MatesController)];
+    // Create an object of class MatesController
+    //MatesController mates = MatesController();
+
 
 
     void evaluate(Context ctx) {
@@ -17,8 +21,13 @@ node {
         if (!isSettingUp())
             return;
 
-        MatesController mate = MatesController(*(uart->toStream()), constant_input_RESET);
+        auto uart = getValue<input_UART>(ctx);
+        //MatesController mates = MatesController(*(uart->toStream()), constant_input_RESET);
+        //MatesController mates = MatesController(*(uart->toStream()));
+        //MatesController mates = MatesController(Serial1);
 
-        emitValue<output_MATE>(ctx, &mate);
+        Type mates = new (mem) MatesController(*(uart->toStream()), constant_input_RESET);
+
+        emitValue<output_DEV>(ctx, mates);
     }
 }

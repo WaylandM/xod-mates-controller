@@ -11,7 +11,7 @@
     },
     {
       "id": "H1e4M4_kel",
-      "label": "MATE",
+      "label": "DEV",
       "position": {
         "units": "slots",
         "x": 1,
@@ -28,6 +28,16 @@
         "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "ByLTXJtkex",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
     }
   ]
 }

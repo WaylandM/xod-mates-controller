@@ -1,18 +1,22 @@
 
 node {
-    // Internal state variables defined at this level persists across evaluations
-    Number foo;
-    uint8_t bar = 5;
 
     void evaluate(Context ctx) {
-        bar += 42;
 
-        if (isSettingUp()) {
-            // This run once
-            foo = (Number)(bar + 1);
+        // The node responds only if there is an input pulse
+        if (!isInputDirty<input_INIT>(ctx))
+            return;
+
+        auto mates = getValue<input_DEV>(ctx);
+
+        // Attempt to initialize; if attempt fails emit error
+        if (!mates->begin()) {
+            raiseError(ctx);
+            return;
         }
 
-        auto inValue = getValue<input_IN>(ctx);
-        emitValue<output_OUT>(ctx, inValue);
+        emitValue<output_OK>(ctx, 1);
+
+
     }
 }

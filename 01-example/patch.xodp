@@ -1,0 +1,158 @@
+{
+  "links": [
+    {
+      "id": "BJPlvyYyxg",
+      "input": {
+        "nodeId": "rkhCIytkeg",
+        "pinKey": "H1uNFmuygl"
+      },
+      "output": {
+        "nodeId": "B1YyPJF1el",
+        "pinKey": "Sk450OL-X"
+      }
+    },
+    {
+      "id": "S1nxvktJgl",
+      "input": {
+        "nodeId": "Bk00Lytkxg",
+        "pinKey": "H1e4M4_kel"
+      },
+      "output": {
+        "nodeId": "rkhCIytkeg",
+        "pinKey": "HkDSF7dkge"
+      }
+    },
+    {
+      "id": "HyDbPytyxg",
+      "input": {
+        "nodeId": "Bk00Lytkxg",
+        "pinKey": "ByLTXJtkex"
+      },
+      "output": {
+        "nodeId": "ryNWPytJle",
+        "pinKey": "Bkf4BDsmV"
+      }
+    },
+    {
+      "id": "Hk_MP1Kkxl",
+      "input": {
+        "nodeId": "B1NMPJFyll",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "Bk00Lytkxg",
+        "pinKey": "ByiHM4dklg"
+      }
+    },
+    {
+      "id": "BJeXv1Kyxe",
+      "input": {
+        "nodeId": "B13zw1KJex",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "B1NMPJFyll",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "BkWK2akYJxg",
+      "input": {
+        "nodeId": "r1eKhpyYyxx",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "SktnpJY1el",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "rJanpyY1xg",
+      "input": {
+        "nodeId": "SktnpJY1el",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "B1YyPJF1el",
+        "pinKey": "BkmeFD8OQ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "rkhCIytkeg",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/mate"
+    },
+    {
+      "id": "Bk00Lytkxg",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "@/init"
+    },
+    {
+      "boundLiterals": {
+        "BytfJKIWX": "9600"
+      },
+      "id": "B1YyPJF1el",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/uart/uart-1"
+    },
+    {
+      "id": "ryNWPytJle",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/debug/tweak-pulse"
+    },
+    {
+      "id": "B1NMPJFyll",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 4
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "B13zw1KJex",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 5
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SktnpJY1el",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "r1eKhpyYyxx",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}
