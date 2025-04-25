@@ -34,47 +34,113 @@
       }
     },
     {
-      "id": "Hk_MP1Kkxl",
+      "id": "BkiZuyftJxl",
       "input": {
-        "nodeId": "B1NMPJFyll",
-        "pinKey": "HJAq-A_8-"
+        "nodeId": "rk9UkfYkee",
+        "pinKey": "H1MlnZYkge"
       },
       "output": {
-        "nodeId": "Bk00Lytkxg",
-        "pinKey": "ByiHM4dklg"
+        "nodeId": "rkAvkftygg",
+        "pinKey": "Bkf4BDsmV"
       }
     },
     {
-      "id": "BJeXv1Kyxe",
+      "id": "ryjOkzYkge",
       "input": {
-        "nodeId": "B13zw1KJex",
-        "pinKey": "HkXK-dGob"
+        "nodeId": "ryruJfYkgl",
+        "pinKey": "H1MlnZYkge"
       },
       "output": {
-        "nodeId": "B1NMPJFyll",
-        "pinKey": "r1yhZRd8W"
+        "nodeId": "rkuuJzYkxl",
+        "pinKey": "Bkf4BDsmV"
       }
     },
     {
-      "id": "BkWK2akYJxg",
+      "id": "rJ2hyMK1le",
       "input": {
-        "nodeId": "r1eKhpyYyxx",
-        "pinKey": "HkXK-dGob"
+        "nodeId": "rk9UkfYkee",
+        "pinKey": "ByNejZKJgx"
       },
       "output": {
-        "nodeId": "SktnpJY1el",
-        "pinKey": "r1yhZRd8W"
+        "nodeId": "ryO2yGtyle",
+        "pinKey": "ByfGSDjQE"
       }
     },
     {
-      "id": "rJanpyY1xg",
+      "id": "B1-TyGKkex",
       "input": {
-        "nodeId": "SktnpJY1el",
-        "pinKey": "HJAq-A_8-"
+        "nodeId": "ryruJfYkgl",
+        "pinKey": "ByNejZKJgx"
       },
       "output": {
-        "nodeId": "B1YyPJF1el",
-        "pinKey": "BkmeFD8OQ"
+        "nodeId": "BkC2kMYJex",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "SkSr-ftklx",
+      "input": {
+        "nodeId": "B1fr-fKkeg",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "rkhCIytkeg",
+        "pinKey": "HkDSF7dkge"
+      }
+    },
+    {
+      "id": "H1QU-MYJgg",
+      "input": {
+        "nodeId": "rk9UkfYkee",
+        "pinKey": "Hk9NjZF1le"
+      },
+      "output": {
+        "nodeId": "SJAHZzYkee",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJlv-zKJel",
+      "input": {
+        "nodeId": "H1hVbGK1gx",
+        "pinKey": "Skme0gMt1xe"
+      },
+      "output": {
+        "nodeId": "HJpUZGFygx",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Hy-D-GKJeg",
+      "input": {
+        "nodeId": "ryruJfYkgl",
+        "pinKey": "Hk9NjZF1le"
+      },
+      "output": {
+        "nodeId": "SkcUWMK1xl",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ryOvbzYkgx",
+      "input": {
+        "nodeId": "H1hVbGK1gx",
+        "pinKey": "SJelAefYygg"
+      },
+      "output": {
+        "nodeId": "B1xHPbMKkge",
+        "pinKey": "ByfGSDjQE"
+      }
+    },
+    {
+      "id": "Hk9DbMKyxg",
+      "input": {
+        "nodeId": "H1hVbGK1gx",
+        "pinKey": "H1Ee0lft1xx"
+      },
+      "output": {
+        "nodeId": "r1HvWzK1le",
+        "pinKey": "Bkf4BDsmV"
       }
     }
   ],
@@ -119,40 +185,137 @@
       "type": "xod/debug/tweak-pulse"
     },
     {
-      "id": "B1NMPJFyll",
-      "position": {
-        "units": "slots",
-        "x": 1,
-        "y": 4
-      },
-      "type": "xod/core/count"
-    },
-    {
-      "id": "B13zw1KJex",
-      "position": {
-        "units": "slots",
-        "x": 1,
-        "y": 5
-      },
-      "type": "xod/debug/watch"
-    },
-    {
-      "id": "SktnpJY1el",
-      "position": {
-        "units": "slots",
-        "x": 6,
-        "y": 1
-      },
-      "type": "xod/core/count"
-    },
-    {
-      "id": "r1eKhpyYyxx",
+      "id": "rk9UkfYkee",
       "position": {
         "units": "slots",
         "x": 6,
         "y": 2
       },
-      "type": "xod/debug/watch"
+      "type": "@/set-led-digits-integer-value"
+    },
+    {
+      "id": "rkAvkftygg",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-pulse"
+    },
+    {
+      "boundLiterals": {
+        "S1lfoWKkxg": "1"
+      },
+      "id": "ryruJfYkgl",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 2
+      },
+      "type": "@/set-led-digits-integer-value"
+    },
+    {
+      "id": "rkuuJzYkxl",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-pulse"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "12.5"
+      },
+      "id": "ryO2yGtyle",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "14"
+      },
+      "id": "BkC2kMYJex",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
+    },
+    {
+      "id": "H1hVbGK1gx",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 2
+      },
+      "type": "@/set-media-thermometer"
+    },
+    {
+      "id": "B1fr-fKkeg",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "SJAHZzYkee",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "SkcUWMK1xl",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "HJpUZGFygx",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "r1HvWzK1le",
+      "position": {
+        "units": "slots",
+        "x": 17,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-pulse"
+    },
+    {
+      "boundLiterals": {
+        "ByfGSDjQE": "25.5"
+      },
+      "id": "B1xHPbMKkge",
+      "position": {
+        "units": "slots",
+        "x": 16,
+        "y": 1
+      },
+      "type": "xod/debug/tweak-number"
     }
   ]
 }
